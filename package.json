@@ -1,0 +1,47 @@
+{
+    "name": "plat-id",
+    "version": "1.0.0",
+    "description": "Validasi, parsing, dan lookup plat nomor kendaraan Indonesia",
+    "main": "dist/index.cjs",
+    "module": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "engines": {
+        "node": ">=16"
+    },
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "require": "./dist/index.cjs"
+        }
+    },
+    "files": [
+        "dist",
+        "LICENSE",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsup && tsc --emitDeclarationOnly --outDir dist",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "lint": "tsc --noEmit"
+    },
+    "keywords": [
+        "plat",
+        "nomor",
+        "kendaraan",
+        "indonesia",
+        "validasi",
+        "tnkb",
+        "samsat"
+    ],
+    "author": "Refrilly Gregorian Tompodung",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^26.1.2",
+        "eslint": "^10.8.0",
+        "tsup": "^8.5.1",
+        "typescript": "^7.0.2",
+        "vitest": "^4.1.10"
+    }
+}
