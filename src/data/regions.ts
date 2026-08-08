@@ -1,5 +1,5 @@
 export const regions: Record<string, { city: string; province: string }> = {
-    // Banten
+    // Banten.
     A: {
         city: 'Serang/Cilegon/Pandeglang/Lebak/Tangerang',
         province: 'Banten',
