@@ -6,7 +6,7 @@
 
 Utility library TypeScript/JavaScript untuk validasi, parsing, dan lookup plat nomor kendaraan Indonesia. Mencakup semua kode wilayah resmi Samsat, zero dependencies, dan mendukung ESM & CJS.
 
-## Instalasi
+## Instal
 
 ```bash
 npm install plat-id
