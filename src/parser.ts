@@ -1,3 +1,4 @@
+//
 import { isValidPlat, isGovernment, normalizePlat } from './validator.js';
 import { getRegion, getProvince, getVehicleType } from './lookup.js';
 
