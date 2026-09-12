@@ -1,4 +1,3 @@
-//
 const CIVIL_PLATE_REGEX = /^([A-Z]{1,2})\s(\d{1,4})\s([A-Z]{1,3})$/;
 
 export function normalizePlat(plat: string): string {
