@@ -1,3 +1,4 @@
+// 
 import { describe, it, expect } from 'vitest';
 import { isValidPlat, isGovernment } from '../src/validator.js';
 import { getRegion, getProvince, getVehicleType } from '../src/lookup.js';
